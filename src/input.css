@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav_link {
+    @apply no-underline font-[500] text-[#1E293B] hover:text-blue-500 text-[16px] transition font-jost
+}
+.para_text{
+    @apply font-normal text-gray-500 my-[10px] text-[14px];
+}
+.button1 {
+    @apply px-[40px] py-[15px] rounded-md font-[500] bg-sky-500 text-white hover:bg-[#1e293b] transition-all duration-700 hover:translate-y-1 shadow-lg shadow-sky-500/50 hover:shadow-[#1e293b75]
+}
+.submitBtn{
+  @apply px-[40px] py-[15px] rounded-md font-[500] bg-sky-500 text-white hover:bg-[#1e293b] transition-all duration-700 hover:translate-y-1 shadow-lg shadow-sky-500/50 hover:shadow-[#1e293b75] border border-transparent hover:border-sky-500
+}
+.button2 {
+    @apply px-[40px] py-[15px] rounded-md font-[500] bg-[#1e293b] text-white hover:bg-sky-500 shadow-lg shadow-[#1e293b75] hover:translate-y-1 transition-all duration-700 hover:shadow-blue-500/50
+}
+.section_title{
+    @apply text-[30px] md:text-[40px] font-[700] text-[#1e293b] leading-[50px] text-center lg:text-left ;
+}
+.section_title2{
+    @apply text-[30px] md:text-[40px] font-[700] text-white leading-[50px] text-center 
+}
+.form_label{
+    @apply absolute top-[-12px] px-2 left-[20px] bg-[#1e293b] text-sky-500;
+}
+.form_input{
+    @apply w-full h-[45px] px-3 outline-none border border-sky-500 focus:border-2 text-sky-500 rounded-md bg-[#1e293b]
+}
+.form_textarea{
+    @apply w-full  px-3 py-4 outline-none border border-sky-500 focus:border-2 text-sky-500 rounded-md bg-[#1e293b]
+}
+.single_team_box{
+    @apply flex flex-col items-center justify-center px-3 py-5 bg-white rounded-lg border-2 border-transparent hover:border-2 hover:border-sky-500 transition duration-700 shadow-lg shadow-sky-500/20 cursor-pointer;
+}
+.section_subtitle{
+    @apply text-[20px] text-center lg:text-left text-sky-500 mb-[10px] font-[600];
+}
+*{
+    @apply font-jost
+}
+.arrow_btn{
+    @apply w-[40px] mx-auto h-[40px] grid place-items-center rounded-full bg-slate-200 text-[#1e293b] hover:bg-[#1e293b] transition duration-700 hover:text-sky-500 cursor-pointer;
+}
+.social_link{
+    @apply grid place-items-center w-[35px] h-[35px] rounded-full text-[#1e293b] border border-[#1e293b] hover:border-sky-500 hover:text-sky-500 transition duration-500
+}
+.f_social_link{
+    @apply grid place-items-center w-[35px] h-[35px] rounded-full text-white  bg-sky-500  hover:border-sky-500 hover:text-sky-500 hover:ring hover:ring-sky-500 ring-offset-1 ring-offset-[#1e293b] hover:bg-transparent transition duration-500
+}
+
+/* hero section shap */
+.custom-shape-divider-top-1705518160 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    bottom: -100px;
+}
+
+.custom-shape-divider-top-1705518160 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1705518160 .shape-fill {
+    fill: #F1F5F9;
+}
+
