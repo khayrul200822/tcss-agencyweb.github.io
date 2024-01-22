@@ -1,4 +1,4 @@
-![Test Image 4](image/full-stack-development.gif)
+![Test Image 4](src/img/full-stack-development.gif)
 <h1 align="center">Hi 👋, I'm Khayrul Islam</h1>
 <h3 align="center">A passionate Front-end Developer from Bangladesh</h3>
 
